@@ -1,0 +1,94 @@
+.eleven{
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+    overflow: auto;
+    position: relative;
+}
+.eleven .eleven-1{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display:  grid;
+    grid-template-columns: auto auto auto auto;
+    border-bottom: solid 0.5px #EEEEEE;
+
+}
+.eleven .eleven-1 .con{
+    padding-bottom: 30px;
+}
+.eleven .eleven-1 .con h4{
+    color: #EEEEEE;
+    padding-bottom: 7px;
+}
+.eleven .eleven-1 .con .con-1 a{
+    display: block;
+    text-decoration: none;
+    line-height: 25px;
+    color: #33CC00;
+    font-size: 13px;
+    width: 50%;
+}
+.eleven .eleven-1 .con .con-1 a:hover{
+    color: #EEEEEE;
+}
+.eleven .eleven-1 .con .con-1 span{
+    display: block;
+    line-height: 25px;
+    color: #33CC00;
+    font-size: 13px;
+}
+.eleven .eleven-2{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+.eleven .eleven-2 .left{
+    width: 70%;
+    float: left;
+}
+.eleven .eleven-2  .right{
+    width: 30%;
+    float: right;
+}
+.eleven .eleven-2  .right .icon{
+    width: 100%;
+    overflow: hidden;
+}
+.eleven .eleven-2  .right .icon a{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+.eleven .eleven-2  .right .icon .face:hover{
+color: #003366;
+}
+.eleven .eleven-2  .right .icon .tw:hover{
+    color: #0066FF;
+}
+.eleven .eleven-2  .right .icon .gg:hover{
+    color: #FF0000;
+}
+.eleven .eleven-2  .right .icon .camera:hover{
+    color: #003366;
+}
+.eleven .eleven-2  .right .icon .ytb:hover{
+    color: #660000;
+}
+.eleven .nut{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: wheat;
+    font-size: 50px;
+    transform: rotate(0);
+    transition: 1s;
+}
+.eleven .nut:hover{
+    color: #003366;
+    transform: rotate(180deg);
+}

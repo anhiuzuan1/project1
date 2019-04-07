@@ -1,0 +1,33 @@
+.serven{
+    width: 100%;
+    background-color: rgba(0,0,0,0.09);
+    overflow: auto;
+    border-top: solid 0.5px wheat;
+    border-bottom: solid 0.5px wheat;
+}
+.serven .serven-1{
+    width: 65%;
+    margin:  auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+}
+.serven .serven-1 .serven-2{
+    overflow: auto;
+}
+.serven .serven-1 .serven-2 .text{
+   padding-top: 60%;
+   padding-bottom: 50%;
+}
+.serven .serven-1 .serven-2 .text .icon{
+    color: white;
+    font-size: 90px;
+    
+    margin-left: 25%;
+   
+}
+.serven .serven-1 .serven-2 .text .text2{
+    color: white;
+    margin-left: 20%;
+    line-height: 20px;
+}

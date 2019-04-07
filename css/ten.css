@@ -1,0 +1,73 @@
+.ten{
+    width: 100%;
+    overflow: auto;
+  
+}
+.ten .ten-1{
+    width: 70%;
+    margin:  auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    overflow: auto;
+    
+}
+.ten .ten-1 .ten-1-1{
+    width: 100%;
+   
+    
+}
+.ten .ten-1 .ten-1-1 h1{
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.ten .ten-1 .ten-1-2{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.ten .ten-1 .ten-1-2 .left{
+    width: 49%;
+    float: left;
+    overflow: auto;
+}
+.ten .ten-1 .ten-1-2 .left .text{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: solid 2px #00CCCC;
+    border-left: solid 7px #00CCCC;
+    background-color: rgba(0,0,0,0.09);
+    color: #777777;
+}
+.ten .ten-1 .ten-1-2 .right{
+width: 49%;
+float: right;
+overflow: auto;
+}
+.ten .ten-1 .ten-1-2 .right .text{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 130px;
+    border: solid 2px #00CCCC;
+    border-left: solid 7px #00CCCC;
+    background-color: rgba(0,0,0,0.09);
+    color: #777777;
+}
+.ten .ten-1 .send{
+    width: 12%;
+    float: right;
+    margin-top: 1%;
+}
+.ten .ten-1 .send .send-1{
+    width: 100%;
+    padding: 8px;
+    transition: 0.5s;
+}
+.ten .ten-1 .send .send-1:hover{
+    background-color: black;
+    color: whitesmoke;
+    border: solid 2px #00CCCC;
+}

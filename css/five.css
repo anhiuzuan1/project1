@@ -1,0 +1,74 @@
+.five{
+    width: 100%;
+    overflow: auto;
+    margin-top: 2px;
+    background-color: rgba(0,0,0.5);
+}
+.five .text1{
+    width: 60%;
+    margin: auto;
+   
+}
+.five .text1{
+    text-align: center;
+    padding: 0;
+    padding-top: 70px;
+    color: #EEEEEE;
+    padding-bottom: 30px;
+}
+.five .text2{
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+   flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+.five .text2 .text3{
+    width: 24.2%;
+   
+}
+.five .text2 .text3 .image{
+   width: 100%;
+
+}
+.five .text2 .text3 img{
+   border: solid 7px rgba(0,0,0,0.75);
+  
+}
+.five .text2 .text3 img:hover{
+   border: solid 7px wheat;
+   margin: 0;
+   top: 0;
+   left: 0;
+}
+.five .text2 .text3 .text3-1{
+   color: #EEEEEE;
+}
+.five .text2 .text3 .text3-1 a{
+   color: #33FFCC;
+   text-decoration: none;
+   font-size: 20px;
+}
+.five .text2 .text3 .text3-1 button{
+ padding: 10px;
+ background-color: rgb(0, 0,0,0.02);
+ border: solid 0.25px wheat;
+ color: #EEEEEE;
+   
+}
+.five .text2 .text3 .text3-1 button:hover{
+   background-color: #880000;
+}
+.five .text3{
+   width: 60%;
+   margin: auto;
+  
+}
+.five .text3{
+   text-align: center;
+   padding: 0;
+   padding-top: 10px;
+   color: #EEEEEE;
+   padding-bottom: 30px;
+}

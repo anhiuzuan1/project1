@@ -1,0 +1,102 @@
+.four{
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    overflow: auto;  
+    border-bottom: solid 1px wheat;
+}
+.four .four1{
+    width: 50%;
+    margin: 0 auto;
+}
+.four .four1 h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    color: #EEEEEE;
+}
+.four .four2{
+    width: 80%;
+    margin-left: 100px;
+    overflow: hidden;
+}
+.four .four2 a{
+    width: 25%;
+    float: left;
+    padding:10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #EEEEEE;
+    border-bottom: solid 2px #EEEEEE;
+    text-align: center;
+    transition: 2s;
+}
+.four .four2 a:hover{
+    color: aqua;
+    border-bottom: solid 2px aqua;
+}
+.four .four3{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+   margin-top: 2px;
+
+}
+.four .four3 .four3-1{
+    overflow: auto;
+    background-color: black;
+    line-height: 10px;
+    width: 25%;
+}
+
+.four .four3 .four3-2{
+    overflow: auto;
+    background-color: black;
+    line-height: 10px;
+    width: 25%;
+}
+.four .four3 .four3-3{
+    overflow: auto;
+    background-color: black;
+    line-height: 10px;
+    width: 25%;
+}
+.four .four3 .four3-4{
+    overflow: auto;
+    background-color: black;
+    line-height: 10px;
+    width: 25%;
+}
+.four .four3 .four3-1 .text{
+    width: 80%;
+    height: 100px;
+    margin:0 auto;
+}
+.four .four3 .four3-1 .text .download:hover{
+   background-color: #990033;
+   border: none;
+}
+
+.four .four3 .four3-2 .text .download:hover{
+    background-color: #990033;
+    border: none;
+ }
+.four .four3 .four3-3 .text .download:hover{
+    background-color: #990033;
+    border: none;
+ }
+.four .four3 .four3-4 .text .download:hover{
+    background-color: #990033;
+    border: none;
+ }
+ #id001{
+    display: none;
+    }
+ #id02{
+    display: none;
+    }
+    #id03{
+        display: none;
+        }
+    #id04{
+            display: none;
+    }

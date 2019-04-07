@@ -1,0 +1,36 @@
+.nine{
+    width: 100%;
+    overflow: auto;
+    background-color: #EEEEEE;
+}
+.nine .nine-1{
+    width: 100%;
+    overflow: auto;
+    
+    padding-bottom: 20px;
+}
+.nine .left{
+    width: 50%;
+    float: left;
+    
+}
+.nine .right{
+    width: 50%;
+    float: right;
+  overflow: hidden;
+}
+.nine .right .right-1{
+    margin-top: 7%;
+    width: 100%;
+}
+.nine .right .right-1 .sub{
+    padding: 8px;
+    background-color: #33FFCC;
+    border: none;
+    color: #777777;
+    transition: 0.5s;
+}
+.nine .right .right-1 .sub:hover{
+    background-color: #BB0000;
+    color: black;
+}

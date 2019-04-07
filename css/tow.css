@@ -1,0 +1,22 @@
+.tow{
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    overflow: auto;
+}
+.tow-2{
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+}
+.tow .tow-2 .tow-2-2{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    
+}
+.tow .tow-2 .tow-2-3{
+    width: 50%;
+    float: right;
+    
+    padding: 20px;
+}
